@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.hayriyec.yazilimtasarim.KelimeEzber">
+
+    <ImageView
+        android:id="@+id/imgPlayWord"
+        android:layout_width="200dp"
+        android:layout_height="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        tools:ignore="ContentDescription" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:paddingTop="90dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/txtCorrectAnswer"
+                android:layout_width="300dp"
+                android:layout_height="46dp"
+                android:layout_margin="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txtCümle"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_margin="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txtCümleAnlam"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_margin="30dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtPlayWord"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnIleri"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/imgBtnTextToSpeech"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:background="@null"
+        android:elevation="0dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/audio"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnIleri"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDefault"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:text="İleri" />
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:background="@color/colorDefault"
+
+        android:text="Geri"
+        android:visibility="visible" />
+
+</RelativeLayout>

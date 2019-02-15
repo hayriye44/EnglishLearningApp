@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eee8aa</color>
+    <color name="colorPrimaryDark">#c60000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sag">#edaec3</color>
+    <color name="sol">#d0c3ff</color>
+    Java
+    <color name="colorDefault">#eee8aa</color>
+
+
+</resources>
