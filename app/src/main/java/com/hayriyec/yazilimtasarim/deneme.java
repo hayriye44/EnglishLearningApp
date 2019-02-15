@@ -38,7 +38,7 @@ public  class deneme extends AppCompatActivity  {
 
     String dilCifti="tr-en";
     String arananKelime;
-    String yandexKey="trnsl.1.1.20170826T124332Z.c7f36074597a666f.f831f314a08423422cd841afca69af8e4a869564";
+    String yandexKey="...............";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
